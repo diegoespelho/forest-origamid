@@ -2,7 +2,7 @@
 import plugin from 'tailwindcss/plugin';
 
 module.exports = {
-  content: ['./src/**/*.{html,js}'],
+  content: ['./src/index.html', './src/**/*.{html,js}'],
   theme: {
     container: {
       center: true,
